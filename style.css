@@ -2,4 +2,43 @@
  * This styles the file index.html
  */
 
- 
+ html, body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #d4d5f8, #a798eb, #759bee, #6288f1);
+    background-size: 400% 400%;
+    animation: gradient 30s ease-in-out infinite;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.name {
+    font-size: 5rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.social-icon {
+    font-size: 2rem;
+    margin: 0 0.5rem; /* top/bottom right/left */
+    color: aliceblue;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+ /* classes start with .*/
+ /* ids start with # */
+
