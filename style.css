@@ -1,6 +1,12 @@
 /* style.css
  * This styles the file index.html
  */
+ @font-face {
+    font-family: 'Brush-Script-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Brush-Script-Regular.ttf') format('truetype');
+}
 
  html, body {
     width: 100%;
@@ -14,7 +20,7 @@
 
 .name {
     font-size: 5rem;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Brush-Script-Regular;
 }
 
 .main-content {
@@ -47,9 +53,12 @@
     font-size: 20pt;
     font-weight: 600;
 }
+.nav-item{
+}
+
 
 .active {
-    background-color: #a798eb
+    background-color: #a798eb;
 }
 
 /*.cHeader::before {
