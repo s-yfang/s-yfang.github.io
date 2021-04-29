@@ -30,43 +30,90 @@
 
         <!-- bootstrap already defines these classes: w-100 h-100 d-flex flex-column align-items-center justify-content-center-->
         <!-- bootstrap makes it cross browser compatible -->
-        <div class = "home w-100 h-100 d-flex flex-column align-items-center justify-content-center" >
-            <div class="main-content d-flex flex-column align-items-center justify-content-center">
-                <h1 class = "name">
-                    Sheng Fang
-                </h1>
-    
-                <h6 class = "sub-heading">
-                    Welcome to my website.
-                </h6>
-    
-                <div class = "social-icons d-flex flex-row">
-                    <a class = "linkedin-icon social-icon", href = "https://www.linkedin.com/in/shengyuefang/", target = "_blank">
-                        <em class = "fab fa-linkedin"></em>
-                    </a>
 
-                    <a class = "github-icon social-icon", href = "https://www.github.com/s-yfang", target = "_blank">
-                        <em class = "fab fa-github"></em>
-                    </a>
+        <nav class ="navbar navbar-expand-lg navbar-light p-0 m-0">
             
-                    <a class = "email-icon social-icon", href = "mailto:shengfang978@gmail.com">
-                        <em class = "fas fa-envelope"></em>
-                    </a>
-
-                    <!-- resume should be in same directory -->
-                    <!-- _blank opens the resume in a new tab -->
-                    <a class = "resume-icon social-icon", href = "resume.pdf", target="_blank"> 
-                        <em class = "fas fa-file"></em>
-                    </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse p-0" id="navbarSupportedContent">
+              <div class="navbar-nav mx-auto d-flex flex-row justify-content-between m-0">
+                  <div class = "g1 d-flex flex-row w-100 align-items-center">
+                    <div class="nav-item mx-auto">
+                        <a class="nav-link" href="#">Home</a>
+                      </div>
+                    <div class="nav-item mx-auto">
+                    <a class="nav-link" href="#">Gallery</a>
+                    </div>
+                  </div>
+                <div class = "nav-item mx-auto">
+                    <a class="navbar-brand center-logo" href="#">SHENG FANG</a>
                 </div>
+                  <div class = "g2 d-flex flex-row w-100 align-items-center">
+                    <div class="nav-item mx-auto">
+                        <a class="nav-link" href="#">About</a>
+                      </div>
+                    <div class="nav-item mx-auto">
+                    <a class="nav-link" href="#">Contact</a>
+                    </div>
+                  </div>
             </div>
-
-            <!-- mt, mb, mx, my, m- -->
-            <div class = "copyright mb-3">
-                Copyright &copy 2021 Sheng Fang
             </div>
+        </nav>
+        
+        <div class = "l-wrapper">
+            <!--<header class = "cHeader">
+                <nav class = "cHeader-nav">
+                    <ul class = "navbar-h">
+                        <li><a class = "active", href = #home>Home</a></li>
+                        <li><a href = #gallery>Gallery</a></li>
+                        <li><a href = #contact>Contact</a></li>
+                        <li><a href = #about>About</a></li>
+                    </ul>
+                </nav>
+            </header>-->
 
+            <div class = "home w-100 h-100 d-flex flex-column align-items-center justify-content-center" >
+                <!-- main content -->
+                <div class="main-content pt-5 mt-5 d-flex flex-column align-items-center justify-content-center">
+                    <h1 class = "name">
+                        Sheng Fang
+                    </h1>
+        
+                    <h6 class = "sub-heading">
+                        Welcome to my website. It's a work in progress.
+                    </h6>
+        
+                    <div class = "social-icons d-flex flex-row">
+                        <a class = "linkedin-icon social-icon", href = "https://www.linkedin.com/in/shengyuefang/", target = "_blank">
+                            <em class = "fab fa-linkedin"></em>
+                        </a>
+    
+                        <a class = "github-icon social-icon", href = "https://www.github.com/s-yfang", target = "_blank">
+                            <em class = "fab fa-github"></em>
+                        </a>
+                
+                        <a class = "email-icon social-icon", href = "mailto:shengfang978@gmail.com">
+                            <em class = "fas fa-envelope"></em>
+                        </a>
+    
+                        <!-- resume should be in same directory -->
+                        <!-- _blank opens the resume in a new tab -->
+                        <a class = "resume-icon social-icon", href = "resume.pdf", target="_blank"> 
+                            <em class = "fas fa-file"></em>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- mt, mb, mx, my, m- -->
+                <div class = "copyright mb-3">
+                    Copyright &copy 2021 Sheng Fang
+                </div>
+    
+            </div>
         </div>
+
 
         <!-- My script -->
         <script type="text/javascript" src="script.js"></script>
